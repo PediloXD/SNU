@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Armá tu PC - SNU</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="armado.css">
+</head>
+<body>
+    <header>
+        <h1>Configurador de PC - SNU</h1>
+        <nav>
+            <a href="index.html">Volver al inicio</a>
+        </nav>
+    </header>
+    <main>
+        <section class="builder">
+            <div class="component">
+                <label for="cpu">Procesador (CPU):</label>
+                <select id="cpu"></select>
+            </div>
+            <div class="component">
+                <label for="motherboard">Motherboard:</label>
+                <select id="motherboard"></select>
+            </div>
+            <div class="component">
+                <label for="gpu">Placa de Video (GPU):</label>
+                <select id="gpu"></select>
+            </div>
+            <div class="component">
+                <label for="ram">Memoria RAM:</label>
+                <select id="ram"></select>
+            </div>
+            <div class="component">
+                <label for="storage">Almacenamiento:</label>
+                <select id="storage"></select>
+            </div>
+            <div class="component">
+                <label for="psu">Fuente de poder (PSU):</label>
+                <select id="psu"></select>
+            </div>
+            <div class="component">
+                <label for="case">Gabinete:</label>
+                <select id="case"></select>
+            </div>
+            <div class="summary">
+                <h2>Total: $<span id="total">0</span></h2>
+            </div>
+        </section>
+    </main>
+    <script src="armado.js"></script>
+</body>
+</html>
